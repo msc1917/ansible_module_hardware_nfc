@@ -1,0 +1,5 @@
+---
+- name: reboot Raspberry Pi
+  reboot:
+  become: yes
+  ignore_errors: yes
